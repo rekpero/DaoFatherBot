@@ -4,7 +4,7 @@ const connectUtil = require('../../Common/connector');
 
 
 module.exports = {
-	name: 'newproposal',
+	name: 'newtransaction',
 	description: 'Create new Transaction.',
 	args: false,
 	usage: '',

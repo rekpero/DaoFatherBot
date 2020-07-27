@@ -6,4 +6,4 @@ services:
     volumes:
       - ./bot-app:/usr/src/app
       - /usr/src/app/node_modules
-    command: yarn start
+    command: yarn dev
