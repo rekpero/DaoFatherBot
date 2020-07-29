@@ -1,5 +1,6 @@
 # AragonDAO Bot
 Telegram and Discord bots to integrate groups with Aragon.
+Link to demo video - https://drive.google.com/file/d/10QZL2l_UVnOcM4Dh24vvdfhq_OixkGYp/view?usp=sharing
 ## Project Description
 Our project is aimed to bring the communites and social groups closer to Aragon DAO. Our project has two bots, discord bot and telegram bot, running on same modular codebase. Users can get links to allocate funds, that is to create proposal and withdrawls, see all the proposals etc.
 Some of the features are:- 
@@ -76,11 +77,6 @@ Some of the features are:-
         * Worked on workflow.
 <br>
 
-## A prototype
-1. Github link - 
-    * https://github.com/rekpero/DaoFatherBot
-2. Link to demo video - 
-    * https://drive.google.com/file/d/10QZL2l_UVnOcM4Dh24vvdfhq_OixkGYp/view?usp=sharing
 
 
 ### Notes
