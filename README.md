@@ -15,21 +15,8 @@ Some of the features are:-
 7. Sending necessary links to the group related to DAO whenever required.
 8. Project is on simple docker container so it can run on any system.
 
-## Instructions to run the project
-* Run with docker
-  - Add a firebase config file in `bot-app/src` with name `firebase-config.json` and make sure you have firestore enabled.
-  - Add your telegram access token in `bot-app/src/TelegramBot/config.json` and discord access token in `bot-app/src/DiscordBot`.
-  - For first run build the project with `docker-compose up --build`
-  - For consequent runs you can simply run it with `docker-compose up`
-* Run with yarn, follow the given commands
-  - Add your telegram access token in `bot-app/src/TelegramBot/config.json` and discord access token in `bot-app/src/DiscordBot`.
-  - Add a firebase config file in `bot-app/src` with name `firebase-config.json` and make sure you have firestore enabled.
-  - `cd bot-app`
-  - `npm install`
-  - `npm install yarn -g`
-  - `npm run dev`
 ## Adding bot to your group
-* Below given bot are already hosted on our server.
+* Below given bot are already hosted on our server. Simply add them to your chat/server and start using them.
 * Telegram 
   - Add this bot to your group http://t.me/aragondao69_bot
   - Run `/register DAOName 0xDaoAddress`
@@ -59,6 +46,22 @@ Some of the features are:-
   - `!dao` Gives link to the DAO.
   - `!newpoposal` Gives a link to create new proposal.
   - `!newtransaction` Gives a link to create deposit or withdraw from DAO.
+## Instructions to run the project
+If you want to have your own instance of bot, you can follow these instructions
+* Run with docker
+  - Add a firebase config file in `bot-app/src` with name `firebase-config.json` and make sure you have firestore enabled.
+  - Add your telegram access token in `bot-app/src/TelegramBot/config.json` and discord access token in `bot-app/src/DiscordBot`.
+  - For first run build the project with `docker-compose up --build`
+  - For consequent runs you can simply run it with `docker-compose up`
+* Run with yarn, follow the given commands
+  - Add your telegram access token in `bot-app/src/TelegramBot/config.json` and discord access token in `bot-app/src/DiscordBot`.
+  - Add a firebase config file in `bot-app/src` with name `firebase-config.json` and make sure you have firestore enabled.
+  - `cd bot-app`
+  - `npm install`
+  - `npm install yarn -g`
+  - `npm run dev`
+
+
 ## Project Team
 1. Mitrasish Mukherjee
     * Github - https://github.com/rekpero
