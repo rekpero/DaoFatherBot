@@ -4,13 +4,13 @@ Link to demo video - https://drive.google.com/file/d/10QZL2l_UVnOcM4Dh24vvdfhq_O
 ## Project Description
 Our project is aimed to bring the communites and social groups closer to Aragon DAO. Our project has two bots, discord bot and telegram bot, running on same modular codebase. Users can get links to allocate funds, that is to create proposal and withdrawls, see all the proposals etc.
 Some of the features are:- 
+1. Gives notifications for any actvity on DAO like new proposals or transactions made to and from DAO.
 1. Listing proposals.
 2. Listing transactions.
 4. Getting link to create proposals.
 3. Getting link to create withdrawl requests.
 3. Bot sends a text to group when a new transaction is made to or from the bot.
 4. Bot sends a text to group when a new proposal is created in the DAO.
-5. Above two features makes our bot work as a notification service as well.
 6. Showing balance of DAO.
 7. Sending necessary links to the group related to DAO whenever required.
 8. Project is on simple docker container so it can run on any system.
